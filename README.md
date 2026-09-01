@@ -1,5 +1,16 @@
 # VIDYORA — Educational Platform UI
 
+## 🌐 Live Demo
+
+👉 View VIDYORA Website: https://sowji1176.github.io/synent-task7-vidyora-ui-sowjanya/
+
+## 📁 Source Code
+
+You can view the complete HTML, CSS, JavaScript, and assets in this repository.
+
+
+# VIDYORA — Educational Platform UI
+
 VIDYORA is a fictional modern learning platform UI created for Task 7: UI Design (Website or App).
 
 ## Project Overview
@@ -38,11 +49,10 @@ A professional responsive educational website built using HTML5, CSS3, and JavaS
 
 ## Project Structure
 
-VIDYORA/
-├── index.html
-├── style.css
-├── script.js
-└── assets/
+- index.html
+- style.css
+- script.js
+- assets/
     ├── vidyora-icon.png
     └── vidyora-wordmark.png
 
