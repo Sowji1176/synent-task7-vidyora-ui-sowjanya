@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIDYORA — Learn. Grow. Inspire.</title>
+<link rel="icon" href="assets/vidyora-icon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== PRELOADER ===== -->
+<div id="preloader">
+  <img src="assets/vidyora-icon.png" alt="Vidyora" class="preloader-icon">
+</div>
+
+<!-- ===== HEADER / NAV (WARM IVORY) ===== -->
+<header id="header">
+  <div class="container nav-wrap">
+    <a href="#home" class="brand">
+      <img src="assets/vidyora-icon.png" alt="Vidyora Icon" class="brand-icon">
+      <img src="assets/vidyora-wordmark.png" alt="Vidyora" class="brand-wordmark">
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#courses" class="nav-link">Courses</a>
+      <a href="#explore" class="nav-link">Explore</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="btn btn-primary" id="ctaNav">Get Started</button>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== MOBILE MENU ===== -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home" class="mobile-link">Home</a>
+  <a href="#courses" class="mobile-link">Courses</a>
+  <a href="#explore" class="mobile-link">Explore</a>
+  <a href="#about" class="mobile-link">About</a>
+  <a href="#contact" class="mobile-link">Contact</a>
+  <button class="btn btn-primary full-width" id="ctaMobile">Get Started</button>
+</div>
+<div class="overlay" id="overlay"></div>
+
+<main>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="container hero-content reveal">
+      <span class="badge">✦ LEARN. GROW. INSPIRE.</span>
+      <h1>Discover Knowledge.<br><span class="gold-text">Build Real Skills.</span></h1>
+      <p class="hero-sub">VIDYORA is a modern learning platform that turns knowledge into practical skills, confidence, creativity, and meaningful growth — for every stage of your journey.</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary btn-lg" id="ctaHeroExplore">Explore Courses <span class="arrow">→</span></button>
+        <button class="btn btn-outline btn-lg" id="ctaHeroLearn">Learn More</button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" data-count="42000">0</span><span class="stat-label">Learners Worldwide</span></div>
+        <div class="stat"><span class="stat-num" data-count="16">0</span><span class="stat-label">Learning Paths</span></div>
+        <div class="stat"><span class="stat-num" data-count="96">0</span><span class="stat-label">% Completion Rate</span></div>
+        <div class="stat"><span class="stat-num" data-count="4">0</span><span class="stat-label">★ 9 Avg Rating</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BRAND VALUE STRIP ===== -->
+  <section class="logo-strip">
+    <div class="container value-row">
+      <div class="value-pill"><strong>LEARN</strong><span>Discover new knowledge</span></div>
+      <div class="value-pill"><strong>GROW</strong><span>Build practical skills</span></div>
+      <div class="value-pill"><strong>INSPIRE</strong><span>Create meaningful impact</span></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="about">
+    <div class="container about-grid">
+      <div class="about-visual reveal">
+        <div class="about-card card-1">
+          <img src="assets/vidyora-icon.png" alt="" class="about-icon">
+          <h4>Today's Learning</h4>
+          <p>72% progress on your current learning path.</p>
+        </div>
+        <div class="about-card card-2">
+          <h4>92%</h4>
+          <p>of learners apply new skills within 30 days.</p>
+        </div>
+        <div class="about-card card-3">
+          <h4>+1 Skill</h4>
+          <p>Added today. Keep growing — every lesson counts.</p>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <span class="eyebrow">About Vidyora</span>
+        <h2>Knowledge creates possibility.</h2>
+        <p>VIDYORA is a modern learning platform dedicated to empowering learners with knowledge, practical skills, creativity, and confidence.</p>
+        <p>We believe learning is not simply about collecting information. It is about transforming knowledge into growth, creativity, and meaningful action.</p>
+        <div class="mission-box">
+          <span class="mission-label">OUR MISSION</span>
+          <p>Learn with purpose. Grow with confidence. Inspire through knowledge.</p>
+        </div>
+        <button class="btn btn-primary" id="ctaAboutMore">Learn Our Method</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COURSES ===== -->
+  <section id="courses" class="courses">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Explore Learning</span>
+        <h2>Build skills that move you forward.</h2>
+        <p>Explore learning paths designed to help you develop knowledge, confidence, and practical skills.</p>
+      </div>
+
+      <div class="tabs" id="courseTabs">
+        <button class="tab-btn active" data-tab="all">All Paths</button>
+        <button class="tab-btn" data-tab="core">Core Skills</button>
+        <button class="tab-btn" data-tab="ai">AI &amp; Technology</button>
+        <button class="tab-btn" data-tab="business">Business &amp; Career</button>
+      </div>
+
+      <div class="course-grid" id="courseGrid">
+        <article class="course-card show reveal" data-category="core">
+          <span class="course-num">01</span>
+          <h3>Design</h3>
+          <p>Develop creative thinking and visual communication skills.</p>
+          <button class="explore-link">Explore <span class="arrow">→</span></button>
+        </article>
+
+        <article class="course-card show reveal" data-category="core">
+          <span class="course-num">02</span>
+          <h3>Technology</h3>
+          <p>Build digital skills for the modern world.</p>
+          <button class="explore-link">Explore <span class="arrow">→</span></button>
+        </article>
+
+        <article class="course-card show reveal" data-category="core">
+          <span class="course-num">03</span>
+          <h3>Business</h3>
+          <p>Strengthen professional and strategic capabilities.</p>
+          <button class="explore-link">Explore <span class="arrow">→</span></button>
+        </article>
+
+        <article class="course-card show reveal" data-category="core">
+          <span class="course-num">04</span>
+          <h3>Personal Growth</h3>
+          <p>Build confidence and move closer to your goals.</p>
+          <button class="explore-link">Explore <span class="arrow">→</span></button>
+        </article>
+
+        <article class="course-card show reveal" data-category="core">
+          <span class="course-num">05</span>
+          <h3>Marketing</h3>
+          <p>Learn modern strategies for communication and growth.</p>
+          <button class="explore-link">Explore <span class="arrow">→</span></button>
+        </article>
+
+        <article class="course-card show reveal" data-category="core">
+          <span class="course-num">06</span>
+          <h3>Data &amp; Analytics</h3>
+          <p>Turn information into insights, decisions, and opportunities.</p>
+          <button class="explore-link">Explore <span class="arrow">→</span></button>
+        </article>
+
+        <article class="course-card show reveal" data-category="core">
+          <span class="course-num">07</span>
+          <h3>Creativity</h3>
+          <p>Develop ideas, imagination, and innovative thinking.</p>
+          <button class="explore-link">Explore <span class="arrow">→</span></button>
+        </article>
+
+        <article class="course-card show reveal" data-category="core">
+          <span class="course-num">08</span>
+          <h3>Career Skills</h3>
+          <p>Strengthen skills that support your professional future.</p>
+          <button class="explore-link">Explore <span class="arrow">→</span></button>
+        </article>
+
+        <article class="course-card show reveal" data-category="ai">
+          <span class="course-num">09</span>
+          <span class="course-flag">Bestseller</span>
+          <h3>AI Mastery Foundations</h3>
+          <p>Prompt engineering, LLM workflows, and everyday AI tools from zero to confident.</p>
+          <button class="explore-link">Explore <span class="arrow">→</span></button>
+        </article>
+
+        <article class="course-card show reveal" data-category="ai">
+          <span class="course-num">10</span>
+          <span class="course-flag">New</span>
+          <h3>Agentic AI &amp; Automation</h3>
+          <p>Design multi-step AI agents that plan, call tools, and complete real tasks.</p>
+          <button class="explore-link">Explore <span class="arrow">→</span></button>
+        </article>
+
+        <article class="course-card show reveal" data-category="ai">
+          <span class="course-num">11</span>
+          <h3>AI Data Analytics with Python &amp; SQL</h3>
+          <p>Clean, query, and visualize real datasets to make decisions with confidence.</p>
+          <button class="explore-link">Explore <span class="arrow">→</span></button>
+        </article>
+
+        <article class="course-card show reveal" data-category="ai">
+          <span class="course-num">12</span>
+          <span class="course-flag">Popular</span>
+          <h3>AI-Powered Power BI &amp; Dashboards</h3>
+          <p>Build boardroom-ready dashboards and tell stories with business data.</p>
+          <button class="explore-link">Explore <span class="arrow">→</span></button>
+        </article>
+
+        <article class="course-card show reveal" data-category="ai">
+          <span class="course-num">13</span>
+          <h3>UI/UX &amp; Product Design</h3>
+          <p>Design intuitive digital experiences using modern AI-assisted workflows.</p>
+          <button class="explore-link">Explore <span class="arrow">→</span></button>
+        </article>
+
+        <article class="course-card show reveal" data-category="business">
+          <span class="course-num">14</span>
+          <h3>AI for Product &amp; Project Managers</h3>
+          <p>Use AI to plan sprints, write specs, and ship faster with your team.</p>
+          <button class="explore-link">Explore <span class="arrow">→</span></button>
+        </article>
+
+        <article class="course-card show reveal" data-category="business">
+          <span class="course-num">15</span>
+          <h3>AI-Powered Career Launch</h3>
+          <p>Portfolio, resume, and interview prep using AI tools recruiters respect.</p>
+          <button class="explore-link">Explore <span class="arrow">→</span></button>
+        </article>
+
+        <article class="course-card show reveal" data-category="business">
+          <span class="course-num">16</span>
+          <h3>Human Resources &amp; People Management</h3>
+          <p>Build modern HR skills — hiring, performance, and team development.</p>
+          <button class="explore-link">Explore <span class="arrow">→</span></button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPLORE / WHY VIDYORA ===== -->
+  <section id="explore" class="explore">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">The Vidyora Way</span>
+        <h2>Learning that moves with you.</h2>
+        <p>VIDYORA brings meaningful learning, practical skills, and personal growth together in one inspiring experience.</p>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon">📘</div>
+          <h3>Quality Learning</h3>
+          <p>Clear and meaningful educational content designed to make learning valuable.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">🛠️</div>
+          <h3>Practical Skills</h3>
+          <p>Turn knowledge into useful skills for real-world application.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">🌱</div>
+          <h3>Personal Growth</h3>
+          <p>Build confidence and continue developing throughout your journey.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">🤖</div>
+          <h3>AI-Ready Curriculum</h3>
+          <p>Stay current with tracks built around today's most useful AI tools.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">🎓</div>
+          <h3>Verified Certificates</h3>
+          <p>Shareable credentials recognized by our hiring partner network.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">👥</div>
+          <h3>Community & Mentorship</h3>
+          <p>Learn alongside peers with mentor support along the way.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Reviews</span>
+        <h2>Loved by 40,000+ learners</h2>
+      </div>
+      <div class="testi-track" id="testiTrack">
+        <div class="testi-card active">
+          <p>"VIDYORA's AI track changed how my whole team works. We shipped an internal automation in week 3."</p>
+          <div class="testi-person"><div class="avatar" style="background:#C9A24B">AK</div><div><strong>Ananya K.</strong><span>Product Manager</span></div></div>
+        </div>
+        <div class="testi-card">
+          <p>"I went from zero SQL to building dashboards my manager actually uses. Best investment in myself."</p>
+          <div class="testi-person"><div class="avatar" style="background:#3D8CFF">RM</div><div><strong>Rahul M.</strong><span>Data Analyst</span></div></div>
+        </div>
+        <div class="testi-card">
+          <p>"The mentorship alone is worth it. My mentor reviewed my prompts and projects every single week."</p>
+          <div class="testi-person"><div class="avatar" style="background:#22C55E">SP</div><div><strong>Sara P.</strong><span>Freelance Consultant</span></div></div>
+        </div>
+      </div>
+      <div class="testi-dots" id="testiDots"></div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Pricing</span>
+        <h2>Simple plans, real outcomes</h2>
+      </div>
+      <div class="pricing-grid">
+        <div class="price-card reveal">
+          <h3>Starter</h3>
+          <div class="price-amount"><span class="currency">$</span><span class="amount">19</span><span class="period">/mo</span></div>
+          <p class="price-desc">For casual learners exploring the basics.</p>
+          <ul class="price-features">
+            <li>✔ 20+ starter courses</li>
+            <li>✔ Community access</li>
+            <li>✔ Mobile learning app</li>
+            <li class="disabled">✘ 1:1 mentorship</li>
+          </ul>
+          <button class="btn btn-outline full-width plan-btn">Choose Starter</button>
+        </div>
+        <div class="price-card featured reveal">
+          <span class="most-popular">Most Popular</span>
+          <h3>Pro</h3>
+          <div class="price-amount"><span class="currency">$</span><span class="amount">49</span><span class="period">/mo</span></div>
+          <p class="price-desc">Full curriculum plus mentorship &amp; certificates.</p>
+          <ul class="price-features">
+            <li>✔ All 16 learning paths</li>
+            <li>✔ Verified certificates</li>
+            <li>✔ Monthly 1:1 mentorship</li>
+            <li>✔ Live cohort sessions</li>
+          </ul>
+          <button class="btn btn-primary full-width plan-btn">Choose Pro</button>
+        </div>
+        <div class="price-card reveal">
+          <h3>Teams</h3>
+          <div class="price-amount"><span class="currency">$</span><span class="amount">99</span><span class="period">/seat</span></div>
+          <p class="price-desc">For organizations upskilling at scale.</p>
+          <ul class="price-features">
+            <li>✔ Everything in Pro</li>
+            <li>✔ Team analytics dashboard</li>
+            <li>✔ Dedicated success manager</li>
+            <li>✔ Custom learning paths</li>
+          </ul>
+          <button class="btn btn-outline full-width plan-btn">Contact Sales</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="faq" class="faq">
+    <div class="container faq-wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">FAQ</span>
+        <h2>Questions, answered</h2>
+      </div>
+      <div class="faq-list" id="faqList">
+        <div class="faq-item reveal">
+          <button class="faq-q">Do I need prior experience to start? <span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>No. Every learning path starts from the fundamentals and builds up with hands-on practice.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">Are certificates recognized by employers? <span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Yes — VIDYORA certificates are backed by our hiring partner network and shareable on LinkedIn.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">Can I switch plans later? <span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Absolutely. Upgrade, downgrade, or cancel anytime from your account — no penalties.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">Is there a free trial? <span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Yes, every plan includes a 7-day free trial with full access to explore the platform.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / FINAL CTA ===== -->
+  <section id="contact" class="contact">
+    <div class="container contact-inner reveal">
+      <span class="eyebrow eyebrow-light">Your Next Step</span>
+      <h2>Ready to start your learning journey?</h2>
+      <p>Discover new knowledge, build valuable skills, and take the next step toward your goals.</p>
+      <button class="btn btn-primary btn-lg" id="ctaFinal">Start Learning</button>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="brand">
+        <img src="assets/vidyora-icon.png" alt="Vidyora Icon" class="brand-icon">
+        <img src="assets/vidyora-wordmark.png" alt="Vidyora" class="brand-wordmark footer-wordmark">
+      </a>
+      <p class="footer-tagline">LEARN. GROW. INSPIRE.</p>
+      <p class="footer-desc">A modern learning platform turning knowledge into practical skills, confidence, and meaningful growth.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Platform</h4>
+      <a href="#courses">Courses</a>
+      <a href="#explore">Explore</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+      <a href="#">Careers</a>
+    </div>
+    <div class="footer-col">
+      <h4>Get In Touch</h4>
+      <a href="mailto:hello@vidyora.com">hello@vidyora.com</a>
+      <a href="tel:+1234567890">+123-456-7890</a>
+      <a href="https://www.vidyora.com" target="_blank" rel="noopener">www.vidyora.com</a>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <p>© <span id="year"></span> VIDYORA. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- ===== BACK TO TOP ===== -->
+<button id="backToTop" aria-label="Back to top">↑</button>
+
+<!-- ===== ENROLL MODAL ===== -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <button class="modal-close" id="modalClose">×</button>
+    <img src="assets/vidyora-icon.png" alt="" class="modal-icon">
+    <h3 id="modalTitle">Begin Your VIDYORA Journey</h3>
+    <p id="modalText">Enter your email and we'll help you take the next step.</p>
+    <input type="email" id="modalEmail" placeholder="you@email.com">
+    <button class="btn btn-primary full-width" id="modalSubmit">Continue</button>
+    <p class="modal-status" id="modalStatus"></p>
+  </div>
+</div>
+
+<!-- ===== TOAST ===== -->
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
